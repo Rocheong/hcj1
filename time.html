@@ -30,11 +30,21 @@
     <!-- 메인 섹션 -->
     <section class="main">
       <div class="container">
-        <h1>Contact (연락처)</h1>
-        <p>중부대학교 정보보호학과 홍길동</p>
-        <p>전화 : 010-xxxx-xxxx</p>
-        <p>이메일 : testmail@test.com</p>
-        <img src="img/user.png" alt="user" height="300px" />
+        <h1>Time</h1>
+        <p>시간을 알기 위한 페이지 입니다.</p>
+        <p>
+          시간:
+          <button onmouseover="timehere()" onmouseout="thide()">
+            시스템 설정 시간
+          </button>
+          <button onmouseover="timekorea()" onmouseout="thide()">서울</button>
+          <button onmouseover="timeamerica()" onmouseout="thide()">뉴욕</button>
+          <button onmouseover="timechina()" onmouseout="thide()">상하이</button>
+          <button onmouseover="timeeurope()" onmouseout="thide()">런던</button>
+        </p>
+        <div>
+          <p id="tdesc"></p>
+        </div>
       </div>
     </section>
     <script src="main.js"></script>

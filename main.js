@@ -53,3 +53,33 @@ function hide() {
   document.getElementById('fig').src = ''
   document.getElementById('desc').innerHTML = ''
 }
+function thide() {
+  document.getElementById('tdesc').innerHTML = ''
+}
+function timehere() {
+  document.getElementById('tdesc').innerHTML = new Date().toLocaleString()
+}
+function timekorea() {
+  document.getElementById('tdesc').innerHTML = new Date().toLocaleString(
+    undefined,
+    { timeZone: 'Asia/Seoul' },
+  )
+}
+function timeamerica() {
+  document.getElementById('tdesc').innerHTML = new Date().toLocaleString(
+    undefined,
+    { timeZone: 'America/New_York' },
+  )
+}
+function timeeurope() {
+  document.getElementById('tdesc').innerHTML = new Date().toLocaleString(
+    undefined,
+    { timeZone: 'Europe/London' },
+  )
+}
+function timechina() {
+  document.getElementById('tdesc').innerHTML = new Date().toLocaleString(
+    undefined,
+    { timeZone: 'Asia/Shanghai' },
+  )
+}
