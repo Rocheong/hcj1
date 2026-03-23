@@ -1,18 +1,5 @@
 document.getElementById('time').innerHTML = new Date().toLocaleString()
-function pink() {
-  document.body.style.backgroundColor = 'pink'
-  colorbuf = document.body.style.backgroundColor
-}
-function lightblue() {
-  document.body.style.backgroundColor = 'lightblue'
-  colorbuf = document.body.style.backgroundColor
-}
-function yellow() {
-  document.body.style.backgroundColor = 'yellow'
-  colorbuf = document.body.style.backgroundColor
-}
-function reset() {
-  document.body.style.backgroundColor = 'linen'
+function confirmed() {
   colorbuf = document.body.style.backgroundColor
 }
 function showpink() {
