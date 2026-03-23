@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>시간표 페이지</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      table,
+      th,
+      td {
+        border-spacing: 0;
+        border: 1px solid black;
+        margin: auto;
+        width: 900px;
+        text-align: center;
+        background-color: aqua;
+      }
+      th {
+        background-color: lightskyblue;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">WebDemo</div>
+        <ul class="nav">
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/about.html">About</a>
+          </li>
+          <li>
+            <a href="/contact.html">Contact</a>
+          </li>
+          <li>
+            <a href="/table.html">Table</a>
+          </li>
+          <li>
+            <a href="/list.html">List</a>
+          </li>
+          <li>
+            <a href="/media.html">Media</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <table>
+      <caption>
+        <b>학교 시간표</b>
+      </caption>
+      <thead>
+        <tr>
+          <th></th>
+          <th>월</th>
+          <th>화</th>
+          <th>수</th>
+          <th>목</th>
+          <th>금</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>오전9시</td>
+          <td rowspan="2">대중문화속의법률이야기-김갑석</td>
+          <td rowspan="2">웹 프로그래밍-이병천</td>
+          <td rowspan="2">서버구축및운영실습-양환석</td>
+          <td rowspan="2">
+            English for Global Citizens Ⅲ-제퍼리즈 스캇 다니엘
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>오전 10시</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>오전 11시</td>
+          <td></td>
+          <td rowspan="2">보안자료구조-유승재</td>
+          <td rowspan="2">객체지향프로그래밍-김성규</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>오전 12시</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>오후 1시</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>오후 2시</td>
+          <td rowspan="2">웹프로그래밍-이병천</td>
+          <td rowspan="2">서버구축및운영실습-양환석</td>
+          <td></td>
+          <td rowspan="4">네트워크보안-강성범</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>오후 3시</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>오후 4시</td>
+          <td rowspan="2">보안자료구조-유승재</td>
+          <td rowspan="2">객체지향프로그래밍-김성규</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>오후 5시</td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

@@ -22,7 +22,13 @@
             <a href="/contact.html">Contact</a>
           </li>
           <li>
-            <a href="/time.html">Time</a>
+            <a href="/table.html">Table</a>
+          </li>
+          <li>
+            <a href="/list.html">List</a>
+          </li>
+          <li>
+            <a href="/media.html">Media</a>
           </li>
         </ul>
       </div>
@@ -81,12 +87,25 @@
           </button>
         </p>
         <p>
+          시간:
+          <button onmouseover="timehere()" onmouseout="thide()">
+            시스템 설정 시간
+          </button>
+          <button onmouseover="timekorea()" onmouseout="thide()">서울</button>
+          <button onmouseover="timeamerica()" onmouseout="thide()">뉴욕</button>
+          <button onmouseover="timechina()" onmouseout="thide()">상하이</button>
+          <button onmouseover="timeeurope()" onmouseout="thide()">런던</button>
+        </p>
+        <p>
           배워봅시다:
           <button onmouseover="showhtml()" onmouseout="hide()">HTML5</button>
           <button onmouseover="showcss3()" onmouseout="hide()">CSS3</button>
           <button onmouseover="showjs()" onmouseout="hide()">Javascript</button>
         </p>
         <hr />
+        <div>
+          <p id="tdesc"></p>
+        </div>
         <br />
         <div>
           <img id="fig" height="200px" />

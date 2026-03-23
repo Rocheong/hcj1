@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+  padding: auto;
+  margin: auto;
 }
 body {
   color: #333;
@@ -71,4 +71,12 @@ button {
 button:hover {
   color: red;
   background-color: yellow;
+}
+.mainlist {
+  color: black;
+  line-height: 1.5;
+}
+.mainmedia {
+  color: black;
+  line-height: 2.5;
 }
